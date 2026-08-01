@@ -1,7 +1,27 @@
 aid: set-scouter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/set-scouter.png
 name: Set Scouter
-description: Set Scouter is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Set Scouter is a location-scouting marketplace, built by former producers,
+  that connects film, television, commercial, and branded-content productions
+  with residential and commercial filming locations across North America.
+  Producers browse film-ready spaces — kitchens, lofts, warehouses, mansions
+  and more — arrange in-person scouts, and book online with payments, deposits
+  and overtime handled by the platform, while property owners list their spaces
+  to earn income from productions. The company operates from offices in Toronto
+  and Los Angeles, serving markets including Toronto, New York, Los Angeles,
+  Miami, Chicago, Vancouver, Montreal and Atlanta.
 url: https://raw.githubusercontent.com/api-evangelist/set-scouter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Location Scouting
+- Film Production
+- Marketplace
+- Media and Entertainment
+- Booking
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/set-scouter-domain-security.yml
 - type: Website
-  url: https://setscouter.com
+  url: https://www.setscouter.com
+- type: HelpCenter
+  url: https://help.setscouter.com
+- type: Support
+  url: https://www.setscouter.com/contact
+- type: TermsOfService
+  url: https://www.setscouter.com/terms
+- type: PrivacyPolicy
+  url: https://www.setscouter.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
