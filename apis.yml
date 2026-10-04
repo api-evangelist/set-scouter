@@ -50,7 +50,7 @@ tags:
 - Marketplace
 - Media and Entertainment
 - Booking
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Location Scouting
@@ -59,6 +59,7 @@ tags_raw:
 - Media and Entertainment
 - Booking
 - Real Estate
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
